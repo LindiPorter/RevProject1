@@ -1,0 +1,11 @@
+body{ 
+    margin: 15vmax;
+    padding: 10vmax;
+    background-color: lightskyblue;
+}
+
+table{
+    border-style: solid;
+    border-color: black;
+}
+

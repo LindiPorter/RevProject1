@@ -1,0 +1,21 @@
+package com.lindi.project.daos;
+
+import java.util.List;
+
+import com.lindi.project.main.Reimbursements;
+
+
+public interface ReimburseDAO {
+	
+
+	void reimb(Reimbursements request);
+	
+	void updateReimb (Reimbursements rUp);
+	
+	List<Reimbursements> getAllReimbursements();
+	
+
+	List<Reimbursements> getReimbById(int id);
+
+
+}
