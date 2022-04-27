@@ -34,11 +34,17 @@ Below are the features currently implemented in this system. Following these fea
 
 
 ## Getting Started
-*
-* ``$ git clone https://github.com/LindiPorter/RevProject1.git``
-* 
-
+* Open GitBash 
+* Access working directory using command ``-cd``
+* Clone local repository using ``$ git clone https://github.com/LindiPorter/RevProject1.git``
+* Use command ``$ git add -A`` to add all necessary files
 
 ## Usage
-![This is an image](C:\Users\16784\Pictures\Screenshots)
+* Run MainApp as a Java Application
+* Javalin should open localhost:8080
+* Copy this link into desired web 
+* Add username and password of desired employee or manager
+* Use buttons to navigate through pages
+
 ## License
+This project uses the following license: 
