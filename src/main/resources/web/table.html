@@ -4,8 +4,9 @@
 <meta charset="ISO-8859-1">
 <title>Reimbursements</title>
 <link rel="stylesheet" href="style4.css"></link>
+<script src="scripts/fetchtable.js"></script>
 </head>
-<div class="p-3 mb-2 bg-primary text-white">
+<div id= "getDataHere" onload= "employeeRequest()" class="p-3 mb-2 bg-primary text-white">
 <body>
 	<table border="4">
 		<th>ID Number</th>
@@ -46,7 +47,7 @@
 <h3>View Reimbursement by ID</h3>
 <p>
 	<textarea name="id" rows="1" cols="15"></textarea>
-	<button type="button" onclick="request()">Enter</button>
+	<button type="button" onclick="getReimbById()">Enter</button>
 </p>
 </div>
 </body>

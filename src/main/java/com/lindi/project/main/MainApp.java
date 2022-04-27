@@ -2,7 +2,7 @@ package com.lindi.project.main;
 
 import java.sql.Connection;
 
-import com.lindi.project.controller.LoginController;
+
 import com.lindi.project.controller.RequestController;
 import com.revature.p1.utils.ConnectionUtils;
 
@@ -16,7 +16,14 @@ public static void main(String[] args) {
 			ctx->{ctx.enableCorsForAllOrigins(); ctx.addStaticFiles("web", Location.CLASSPATH);}
 			).start();
 	
-	app.post("/login", LoginController.employeeLogin);
+	app.before(ctx -> ctx.header("Access-Control-Allow-Credentials", "true"));
+	
+	
+	app.post("/login", RequestController.employeeLogin);
+	
+	app.get("/employees", RequestController.getAllEmployees);
+	
+	app.get("/employees/{id}", RequestController.getEmployeesById);
 	
 	app.post("/request", RequestController.employeeRequest);
 	
@@ -24,7 +31,7 @@ public static void main(String[] args) {
 	
 	app.get("/reimbursements", RequestController.getAllReimbursements);
 	
-	app.get("/reimbursements/{id}", RequestController.getReimbByEmp);
+	app.get("/reimbemp", RequestController.getReimbByEmp);
 			
 	Connection conn= ConnectionUtils.getInstance();
 	Connection conn2= ConnectionUtils.getInstance();

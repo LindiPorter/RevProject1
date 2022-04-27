@@ -17,7 +17,7 @@ public class ReimbursePostgresDAO implements ReimburseDAO {
 
 	static Connection conn=ConnectionUtils.getInstance();
 	@Override
-	public void reimb(Reimbursements request) {
+	public void reimb(Reimbursements request, int sAtt) {
 		// TODO Auto-generated method stub
 		Reimbursements r = new Reimbursements ();
 		PreparedStatement pstmt; 
@@ -28,7 +28,7 @@ public class ReimbursePostgresDAO implements ReimburseDAO {
 		
 		try {
 			pstmt = conn.prepareStatement("Insert into Reimbursement Values (DEFAULT,?,null,?,?,?,?::date)");
-			pstmt.setInt(1, request.getEmployeeId());
+			pstmt.setInt(1, sAtt);
 			pstmt.setString(2, request.getRequest());
 			pstmt.setDouble(3, request.getAmount());
 			pstmt.setString(4, request.getDescription());
@@ -46,7 +46,7 @@ public class ReimbursePostgresDAO implements ReimburseDAO {
 	
         
 	@Override
-	public void updateReimb(Reimbursements rUp) {
+	public void updateReimb(Reimbursements rUp, int sAtt) {
 		// TODO Auto-generated method stub
 		Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yy");
@@ -54,9 +54,9 @@ public class ReimbursePostgresDAO implements ReimburseDAO {
 		
 		try {
 			PreparedStatement pstmt = conn.prepareStatement("UPDATE reimbursement set manager_id=?, resolution_time=?::date, resolved=?, accepted=?  WHERE id=?");
-			pstmt.setInt(1, rUp.getManagerId());
+			pstmt.setInt(1, sAtt);
 			pstmt.setString(2, today);
-			pstmt.setString(3, rUp.getResolved());
+			pstmt.setString(3, "resolved");
 			pstmt.setString(4, rUp.getAccepted());
 			pstmt.setInt(5, rUp.getId());
 			pstmt.execute();
@@ -106,7 +106,7 @@ public class ReimbursePostgresDAO implements ReimburseDAO {
 		List<Reimbursements> reList = new ArrayList<Reimbursements>();
 
 		
-		try { String selectReimbursements = "SELECT * from reimbursement WHERE id=?";
+		try { String selectReimbursements = "SELECT * from reimbursement WHERE employee_id=?";
 			PreparedStatement pstmt = conn.prepareStatement(selectReimbursements);	
 			pstmt.setInt(1, rid);
 			ResultSet rs= pstmt.executeQuery();
@@ -129,14 +129,15 @@ public class ReimbursePostgresDAO implements ReimburseDAO {
 
 		} } catch (SQLException e) {
 			e.printStackTrace();
-		}
-		return reList;
+
+		} return reList;
 
 	}
 
 
-	
 }
+
+	
 
 
 		
