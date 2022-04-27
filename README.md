@@ -37,18 +37,21 @@ Below are the features currently implemented in this system. Following these fea
 * Open GitHub 
 * Go to repository page: [LindiPorter/RevProject1](https://github.com/LindiPorter/RevProject1)
 * Press clone button
-* Copy the code with HTTPS ``$ git clone https://github.com/LindiPorter/RevProject1.git``
-* Open GitBash termianl
-* Access working directory using command ``-cd``
-* Clone local repository using ``$ git clone https://github.com/LindiPorter/RevProject1.git``
-* Use ``ls`` command to verify the files are in the right directory
+* Copy the code with HTTPS ``https://github.com/LindiPorter/RevProject1.git``
+* Open GitBash terminal
+* Access working directory using command ``-cd`` <directory-name>
+* Clone local repository using ``$ git clone <url>``
+* Use ``ls`` command to check that the files are in the right directory
 
 ## Usage
 * Run MainApp as a Java Application
-* Javalin should open localhost:8080
+* Javalin should open https://localhost:8080/
 * Copy this link into desired web 
 * Add username and password of desired employee or manager
 * Use buttons to navigate through pages
-
+* Submit employee request or make manager decision
+* Return to tables to view changes
+* Logout upon completion
+ 
 ## License
 This project uses the following license: [LICENSE.txt]
