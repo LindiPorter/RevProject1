@@ -2,7 +2,7 @@
 # Employee Reimbursement System
 
 ## Project Description
-For Project 1, I developed an employee expense reimbursement system based upon the guidelines given. This was a full stack application showcasing both front and back end capabilities. In this project, I used a variety of technologies and languages to achieve the requirements. An employee with specific login information can create an expense request including details about the desire for reimbursement. Then, a manager logs in with their own credentials and either accepts or denies the request. Both employee and manager is able to view past and pending requests, which will be updated upon the managere's decision. 
+For Project 1, I developed an employee expense reimbursement system based upon the guidelines given. This was a full stack application showcasing both front and back end capabilities. In this project, I used a variety of technologies and languages to achieve the requirements. An employee with specific login information can create an expense request including details about the reimbursement. Then, a manager logs in with credentials and either accepts or denies the request. Both employee and manager is able to view past and pending requests, which will be updated upon the manager's decision. 
 
 ## Technologies Used
   * Java - version 1.8
@@ -15,7 +15,7 @@ For Project 1, I developed an employee expense reimbursement system based upon t
   * HTML, JavaScript, CSS, Bootstrap
   
 ## Features
-Below are the features currently implemented in this system. Following these features is a list of tasks to develop which will improve the functionality of the system.
+Below are the features currently implemented in this system. There is also a list of tasks to develop, which will further improve the functionality of the system.
 
   1. Employee logs in with corresponding username and password.
   2. Employee creates an expense request including type, amount, and description of request.
