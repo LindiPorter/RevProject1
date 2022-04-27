@@ -34,10 +34,14 @@ Below are the features currently implemented in this system. Following these fea
 
 
 ## Getting Started
-* Open GitBash 
+* Open GitHub 
+* Go to repository page: [LindiPorter/RevProject1]
+* Press clone button
+* Copy the code with HTTPS ``$ git clone https://github.com/LindiPorter/RevProject1.git``
+* Open GitBash termianl
 * Access working directory using command ``-cd``
 * Clone local repository using ``$ git clone https://github.com/LindiPorter/RevProject1.git``
-* Use command ``$ git add -A`` to add all necessary files
+* Use ``ls`` command to verify the files are in the right directory
 
 ## Usage
 * Run MainApp as a Java Application
