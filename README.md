@@ -12,7 +12,7 @@ For Project 1, I developed an employee expense reimbursement system based upon t
   * Selenium - version 4.1.1
   * Mockito - version 4.4.0
   * PostgreSQL - version 42.3.1
-  * HTML, JavaScript, CSS
+  * HTML, JavaScript, CSS, Bootstrap
   
 ## Features
 Below are the features currently implemented in this system. Following these features is a list of tasks to develop which will improve the functionality of the system.
