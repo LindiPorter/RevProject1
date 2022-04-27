@@ -34,24 +34,29 @@ Below are the features currently implemented in this system. Following these fea
 
 
 ## Getting Started
-* Open GitHub 
-* Go to repository page: [LindiPorter/RevProject1](https://github.com/LindiPorter/RevProject1)
-* Press clone button
-* Copy the code with HTTPS ``https://github.com/LindiPorter/RevProject1.git``
-* Open GitBash terminal
-* Access working directory using command ``-cd`` <directory-name>
-* Clone local repository using ``$ git clone <url>``
-* Use ``ls`` command to check that the files are in the right directory
+* Open GitHub.
+* Go to repository page: [LindiPorter/RevProject1](https://github.com/LindiPorter/RevProject1).
+* Select clone button.
+* Copy the code with HTTPS ``https://github.com/LindiPorter/RevProject1.git``.
+* Open GitBash terminal.
+* Access working directory using command ``-cd`` <directory-name>.
+* Clone local repository using ``$ git clone <url>`` and press enter.
+* Use ``ls`` command and press enter to check that the files are in the right directory.
 
 ## Usage
-* Run MainApp as a Java Application
-* Javalin should open https://localhost:8080/
-* Copy this link into desired browser
-* Add username and password of an employee or manager
-* Use buttons to navigate through pages
-* Submit employee request or make manager decision
-* Return to tables to view changes
-* Logout upon completion
+* Run MainApp as a Java Application. ![Screenshot (2)](https://user-images.githubusercontent.com/101131753/165631658-a0d47611-e2fa-4fb8-932b-c73e80cc5055.png)
+* Javalin should open https://localhost:8080/.
+* Copy this link into desired browser to navigate to the homepage. ![homepage](https://user-images.githubusercontent.com/101131753/165634501-481f7aab-b21a-479f-a69a-5d3f1e470343.png)
+* Login with employee username and password.
+* Use buttons to navigate through pages. 
+* Submit employee request. ![employeepage](https://user-images.githubusercontent.com/101131753/165634675-f48aec53-07c8-44b0-9f99-63ff4a994956.png)
+* Return to table to view past and pending requests. ![employeetable](https://user-images.githubusercontent.com/101131753/165634821-4045e219-7026-46d6-b153-be087978dfd5.png)
+* Logout as employee. 
+* Log in with manager username and password.
+* Use buttons to navigate through pages.
+* Enter id number of request, accept or deny, then submit decision. ![managerpage](https://user-images.githubusercontent.com/101131753/165635136-cef01f37-352d-485e-b1a6-d4ccfefc6680.png)
+* Return to table to view all requests from all employees. ![managertable](https://user-images.githubusercontent.com/101131753/165635241-8e30aaa9-a29d-496d-9f75-6dabcdc487f5.png)
+* Logout. 
  
 ## License
-This project uses the following license: [LICENSE.txt](C:\Projects)
+This project uses the following license: [LICENSE.txt](https://github.com/LindiPorter/RevProject1/files/8577783/LICENSE.txt)
