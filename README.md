@@ -34,6 +34,9 @@ Below are the features currently implemented in this system. Following these fea
 
 
 ## Getting Started
+*
+* $ git clone https://github.com/LindiPorter/RevProject1.git
+* 
 
 
 ## Usage
