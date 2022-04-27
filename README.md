@@ -25,7 +25,7 @@ Below are the features currently implemented in this system. Following these fea
   6. Manager decides whether to accept or deny a specific request id.
   7. Tables update based upon the manager's decision.
   
-  ######To do List
+  ##To do List
   1. Employee can view specific status of request separate from entire table of requests.
   2. Employee can delete request before approval.
   3. Manager can approve or deny specific request based on request id.
