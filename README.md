@@ -46,12 +46,12 @@ Below are the features currently implemented in this system. Following these fea
 ## Usage
 * Run MainApp as a Java Application
 * Javalin should open https://localhost:8080/
-* Copy this link into desired web 
-* Add username and password of desired employee or manager
+* Copy this link into desired browser
+* Add username and password of an employee or manager
 * Use buttons to navigate through pages
 * Submit employee request or make manager decision
 * Return to tables to view changes
 * Logout upon completion
  
 ## License
-This project uses the following license: [LICENSE.txt]
+This project uses the following license: [LICENSE.txt](C:\Projects)
