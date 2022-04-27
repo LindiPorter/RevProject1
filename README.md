@@ -47,4 +47,4 @@ Below are the features currently implemented in this system. Following these fea
 * Use buttons to navigate through pages
 
 ## License
-This project uses the following license: 
+This project uses the following license: [LICENSE.txt]
