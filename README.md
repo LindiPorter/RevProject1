@@ -35,7 +35,7 @@ Below are the features currently implemented in this system. Following these fea
 
 ## Getting Started
 * Open GitHub 
-* Go to repository page: [LindiPorter/RevProject1]
+* Go to repository page: [LindiPorter/RevProject1](https://github.com/LindiPorter/RevProject1)
 * Press clone button
 * Copy the code with HTTPS ``$ git clone https://github.com/LindiPorter/RevProject1.git``
 * Open GitBash termianl
